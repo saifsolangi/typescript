@@ -21,3 +21,14 @@ const loginUser = (name: string, email: string, isPaid: boolean = false) => { }
 
 loginUser("saify", "saify@gmail.com")
 
+
+// strictly bounding functions to return only one type of value like string, number or boolean
+
+// here are we strictly saying return only number
+function getValue(num: number): number {
+    return num
+}
+
+const consoleError = (errorMsg: string): void => {
+    console.log(errorMsg)
+}

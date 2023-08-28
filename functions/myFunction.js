@@ -15,3 +15,11 @@ var loginUser = function (name, email, isPaid) {
     if (isPaid === void 0) { isPaid = false; }
 };
 loginUser("saify", "saify@gmail.com");
+// strictly bounding functions to return only one type of value like string, number or boolean
+// here are we strictly saying return only number
+function getValue(num) {
+    return num;
+}
+var consoleError = function (errorMsg) {
+    console.log(errorMsg);
+};
