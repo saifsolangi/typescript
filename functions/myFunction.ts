@@ -29,6 +29,8 @@ function getValue(num: number): number {
     return num
 }
 
+
+
 const consoleError = (errorMsg: string): void => {
     console.log(errorMsg)
 }
